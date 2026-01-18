@@ -1,0 +1,68 @@
+<html>
+<head><title>HTML Form</title></head>
+<body>
+<form>
+<p><label for="name">Name</label>: <input type="text" id="name" value="John" size="100" /></p>
+<p>Select Favourite Movie: 
+<select multiple>
+	<option disabled selected>Select Movie</option>
+	<optgroup label="Hollywood Movies">
+		<option>Avenger</option>
+		<option>Thor</option>
+		<option>Avatar</option>
+	</optgroup>
+	<optgroup label="Bollywood Movies">
+		<option>Raone</option>
+		<option>DDLJ</option>
+		<option>Gadar</option>
+	</optgroup>
+</select>
+</p>
+<fieldset>
+	<legend>Father Detail</legend>
+	<p>Name : <input /></p>
+	<p>Date of Birth: <input type="date" /></p>
+	<p>Aadahar No: <input type="text" /></p>
+</fieldset>
+<fieldset>
+	<legend>Mother Detail</legend>
+	<p>Name : <input /></p>
+	<p>Date of Birth: <input type="date" /></p>
+	<p>Aadahar No: <input type="text" /></p>
+</fieldset>
+
+<p>Select Datalist: 
+	<input name="hmovies" list="hmovies" />
+	<datalist id="hmovies">
+		<option value="Avenger">
+		<option value="Thor">Thor</option>
+		<option value="Tron">Tron</option>
+	</datalist>
+</p>
+
+<p>Password: <input type="password" /></p>
+
+<p>Color: <input type="color" /></p>
+
+<p>Resume : <input type="file" /></p>
+
+<p>Month: <input type="month" /></p>
+
+<p>Time: <input type="datetime-local" /></p>
+
+<p><label for="message">Message</label>: <textarea id="message" rows="10" cols="50"></textarea></p>
+
+<p><input type="reset" /></p>
+</form>
+<hr/>
+<form action="day5-html-table-webpage.html" target="_blank">
+<fieldset>
+	<legend>My Profile</legend>
+	<p>Name : <input value="Dev" readonly name="fullname" /></p>
+	<p>Username : <input value="devkumar" name="username" disabled /></p>
+</fieldset>
+<button type="button" onclick='alert("Hello")'>Click Me</button>
+<button>Submit</button>
+</form>
+</body>
+</html>

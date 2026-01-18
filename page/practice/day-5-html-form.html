@@ -1,0 +1,79 @@
+<html>
+<head><title>Day 5 - HTML Form</title></head>
+<body>	
+	<!-- Form Method = 'GET', 'POST' -->
+	<form method="get" action="the_toyshub.html">
+		<table width="500" align="center"border="1" cellpadding="10"cellspacing="0">
+		<tr>
+			<th colspan="3">Mobile Enquiry Form</th>
+		</tr>
+		<tr>
+			<th>Name</th>
+			<td width="50">:</td>
+			<td><input name="full_name" placeholder="Enter name here" maxlength="30" required /></td>
+		</tr>
+		<tr>
+			<td>Phone</td>
+			<td>:</td>
+			<td><input type="tel"maxlength="10" name="phone" placeholder="Enter Phone" required /></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td>:</td>
+			<td><input type="email" name="email" placeholder="Enter Email" required /></td>
+		</tr>
+		<tr>
+			<td>Select Phone</td>
+			<td>:</td>
+			<td><select name="phone_company" required>
+				<option selected disabled>Select Model</option>
+				<option>I phone</option>
+				<option>Mi</option>
+				<option>One +</option>
+				<option>Nokia</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td>Model Type</td>
+			<td>:</td>
+			<td>Old <input type="radio" name="model_type" value="old" /> New <input type="radio" name="model_type"value="New" checked /></td>
+		</tr>
+		<tr>
+			<td>OS</td>
+			<td>:</td>
+			<td>Android <input type="radio" value="Android" checked name="model_os" /> IOS <input type="radio"value="ios" name="model_os" /></td>
+		</tr>
+
+		<tr>
+			<td>Date</td>
+			<td>:</td>
+			<td><input type="date" value="2026-01-16" required /></td>
+		</tr>
+
+		<tr>
+			<td>How many needed</td>
+			<td>:</td>
+			<td><input type="number" min="1" placeholder="Enter number of phone" required value="2" /></td>
+		</tr>
+
+		<tr>
+			<td>Accept Terms and Condition</td>
+			<td>:</td>
+			<td><input type="checkbox" name="tnc" value="concent_given" required /></td>
+		</tr>
+
+		<tr>
+			<td colspan="3" align="center"><input type="hidden" name="source" value="HTML Form Page" />		<button type="submit">Submit</button></td>
+		</tr>
+		<!-- <input type="submit" /> -->
+		</table>
+	</form>
+</body>
+</html>
+
+<!--
+1. <form>
+2. <input name="" placeholder="" required value="" type />
+3. <select><option>
+4. <button>
+-->
