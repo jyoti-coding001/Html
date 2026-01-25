@@ -1,0 +1,57 @@
+body {
+	background: yellow;
+	margin: 0;
+}
+header {
+	background: #fff;
+}
+.container {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 0 20px;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+nav {
+	float: right;
+	clear: left;
+	margin-top: 35px;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+a {
+	color: #ff8000;
+	font-weight: bold;
+}
+
+.right-image {
+	float: right;
+	width: 100%;
+}
+
+.width-50 {
+	width: 50%;
+	float: left;
+	clear: right;
+}
+
+.clear-space {
+	clear: both;
+}
+section {
+	padding: 20px 0;
+	clear: both;
+}
+footer {
+	background: #fff;
+	padding: 10px 0;
+}
