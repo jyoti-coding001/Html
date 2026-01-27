@@ -1,0 +1,46 @@
+body {
+	font-family: "Playfair", serif;		
+	margin: 0px;
+}
+header {
+	background: yellow;
+	margin-top: 20px;
+}
+li {
+	list-style: none;
+	display: inline-block;
+	float: right;
+	padding: 10px;
+	margin: 0;
+}
+.left-image {
+	float: left;
+	width: 49%;
+}
+	
+.right-content {
+	float: left;
+	width: 49%;
+}
+.clear-space {
+	clear: both ;
+}
+.new-section {
+	float: left;
+	width: 50%;
+}
+.image-right {
+	float: right;
+	width: 50%;;
+}
+.second-spaceclear {
+	clear: both;
+}
+.text-color {
+	color: #6C6565;
+}
+footer {
+	background: #DBDBDB;
+	padding: 30px;
+	text-align: center;
+}
