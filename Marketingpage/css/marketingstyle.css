@@ -37,10 +37,10 @@ header ul li a {
 }
 .white-bg {
 	background: #EAEFEF;
-
 }
 .grey-bg {
    background:#9AA0A6;
+ 
 }
 .black-bg{
 	background: #202124;
@@ -49,4 +49,41 @@ header ul li a {
 .darkgrey-bg {
 	background:#444444;
 	color: white;
+}
+.center {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+h2 span { 
+	border-bottom: solid;
+	border-bottom-color: #9AA0A6;
+}
+.table-width {
+	width: 100%;
+}
+.table-element {
+	display:inline-block;
+	width: 32%;
+}
+.image-container {	
+	width: 100%;
+}
+.image-width {
+	display: inline-block;
+	width: 32%;
+	box-shadow: 4px 4px 10px;
+}
+.theading { 
+  background: #9AA0A6;
+  color: white;
+  padding: 30px;
+}
+.table-color {
+	background: black;
+   color: white;
+   padding: 30px;
+}
+td {
+	text-align: center;
 }
