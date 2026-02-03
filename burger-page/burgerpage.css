@@ -3,15 +3,20 @@ body {
 	margin: 0px;
 }
 header {
-	background: yellow;
-	margin-top: 20px;
+	background: yellow ;
+	margin-top: 20PX;
+}
+ul {
+	float: right;
+	padding: 20px;
+	margin-left: 10x;
 }
 li {
 	list-style: none;
 	display: inline-block;
-	float: right;
+	float: left;
 	padding: 10px;
-	margin: 0;
+	
 }
 .left-image {
 	float: left;
@@ -21,6 +26,13 @@ li {
 .right-content {
 	float: left;
 	width: 49%;
+	text-align: center;	
+}
+
+.container {
+	max-width: 1300px;
+	margin: 50 auto ;
+	
 }
 .clear-space {
 	clear: both ;
@@ -28,10 +40,12 @@ li {
 .new-section {
 	float: left;
 	width: 50%;
+	margin: 50 auto;
 }
 .image-right {
 	float: right;
-	width: 50%;;
+	width: 50%;
+	margin: 50 auto;
 }
 .second-spaceclear {
 	clear: both;
