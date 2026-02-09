@@ -1,11 +1,11 @@
 body {
 	font-family: "Lato", sans-serif;
+	margin: 0 0px;
 }
 
 header {
 	background: #F1F3F4;
-	padding: 5px;
-	
+	padding: 5px;	
 }
 header ul {
 	list-style: none;
@@ -71,8 +71,10 @@ h2 span {
 }
 .image-width {
 	display: inline-block;
-	width: 32%;
+	width: 30%;
 	box-shadow: 4px 4px 10px;
+	margin: 0 5px;
+	padding: 0 5px;
 }
 .theading { 
   background: #9AA0A6;
@@ -86,4 +88,40 @@ h2 span {
 }
 td {
 	text-align: center;
+}
+table a:hover {
+	background: #ccc;
+	color: #000;
+}
+.form-element {
+	padding: 10px ;
+	width: 100%;
+}
+
+footer {
+	text-align: center;
+	padding: 60px;
+	background: #F1F3F4;
+	margin-top: 60px;
+}
+footer span { 
+	color: white;
+	background: black;
+	padding: 10px ;
+}
+.button-element {
+	width: 100%;
+	color: white;
+	background: black;
+	text-align: center;
+	padding: 5px;
+	margin-top: 15px;
+}
+	
+.bigger-content {
+	font-size: 20px;
+}
+h4 {
+	font-size: 15px;
+	color: #444444;
 }

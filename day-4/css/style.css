@@ -1,0 +1,182 @@
+* {
+	box-sizing: border-box;
+}
+body {
+ font-family: "Lato", sans-serif;
+ margin: 0;
+ color: #777;
+}
+/* position = static, relative, absolute, fixed */
+header {
+	padding: 10px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+}
+ul.left-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+ul.left-menu li {
+    display: inline-block;
+}
+
+ul.left-menu li a {
+    color: #777;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+}
+ul.right-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    float: right;
+}
+section.main-banner {
+    background-image: url(../images/parallax1.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+}
+h2 {
+	text-align: center;
+}
+.image-block {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content-block {
+    width: 49%;
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.image-block img {
+    width: 100%;
+}
+.progress-heading {
+    letter-spacing: 10px;
+    margin-bottom: 15px;
+}
+
+.progress {
+    background: #f1f1f1;
+    height: 35px;
+}
+
+.progress .progress-done {
+    background: #616161;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    padding-top: 7px;
+}
+.progress-block {
+    margin-bottom: 30px;
+}
+.w-90 {
+	width: 90%
+}
+.w-85 {
+	width: 85%
+}
+.views-element {
+	background: #616161;	
+	padding: 30px;
+}
+.inline-block {
+	display: inline-block;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	width: 24%;
+}
+.font-size {
+	font-size: 15px;
+}
+.second-banner {
+	background-image: url(../images/parallax2.jpg);
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+}
+.container-image {
+	max-width: 900px;
+	margin: 0 auto;
+}
+.image-width {
+	display: inline-block;
+	width: 24%;
+	padding: 8px;
+	
+}
+.image-size {
+	width: 100%;
+}
+.load-more { 
+	color: black;
+	padding: 20px;
+	background: #f1f1f1;
+}
+.top-space {
+	margin-top: 20px;
+}
+.load-top-space {
+	margin-top: 60px;
+}
+.third-banner {
+	background-image: url(../images/parallax3.jpg);
+    height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;	
+	margin-top: 60px;
+}
+.map-size {
+	width: 30%;
+}
+.form-input {
+	padding: 13px;
+	margin: 20 8px;
+	width: 24%;
+}
+.message-box {
+	width: 50%;
+	padding :13px;
+	margin-left: -155px;
+}
+.button-type {
+	background: black;
+	color: white;
+	padding: 15px;
+	margin-top: 20px;
+}
+.float-right {	
+
+}
+footer {
+	background: #9AA0A6;
+	padding: 100px;
+	margin-top: 150px;
+}
+.footer-style {
+	background: #F1F3F4;
+	padding: 15px;
+}
+footer :hover {
+	background: black;
+}
