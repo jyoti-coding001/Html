@@ -187,6 +187,6 @@ footer {
 	background: #F1F3F4;
 	padding: 15px;
 }
-footer :hover {
+footer:hover {
 	background: black;
 }
