@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: Open Sans;
+}
+header {
+	background: black;
+	padding: 0;
+}
+h1 {
+	font-weight: 500px;
+	text-align: center;
+}
+.font-size {
+	font-size: 15px;
+	text-align: center;
+	margin: 0;
+}
+span {
+	background: black;
+	color: white;
+}
+h1 h2 h3 h4 h5 h6 {
+	font-family: Oswald;
+}
+.main-banner {
+	margin-top: 50px;
+}

@@ -147,7 +147,7 @@ h2 {
 	margin-top: 60px;
 }
 .map-size {
-	width: 30%;
+	size: 50%;
 }
 .form-input {
 	padding: 13px;
@@ -165,8 +165,18 @@ h2 {
 	padding: 15px;
 	margin-top: 20px;
 }
-.float-right {	
+.float-right {
+	width: 50;
+	float: right;
+	clear: both;
 
+}
+.width-50 {
+	width: 50%
+}
+.inline-block{
+	width: 100%
+	display: inline-block;
 }
 footer {
 	background: #9AA0A6;
