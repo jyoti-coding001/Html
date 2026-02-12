@@ -6,25 +6,50 @@ body {
 	font-family: Open Sans;
 }
 header {
-	background: black;
-	padding: 0;
+	background: yellow;
+	padding: 1px;
 }
 h1 {
 	font-weight: 500px;
 	text-align: center;
+	font-size: 36px;
 }
+h3 {
+	font-weight: 400px;
+}
+h4 {
+	font-weight: 400px;
+}
+
 .font-size {
 	font-size: 15px;
 	text-align: center;
-	margin: 0;
 }
 span {
 	background: black;
 	color: white;
 }
 h1 h2 h3 h4 h5 h6 {
-	font-family: Oswald;
+	font-family: "Oswald", sans-serif;
 }
 .main-banner {
 	margin-top: 50px;
 }
+.right-menu {
+	list-style: none;
+	
+}
+ul li {
+	display:inline-block;
+}
+.container {
+	max-width: 900px;
+}
+.image-size {
+	width: 100%;
+}
+.border-bottam {
+	
+}
+	
+			
