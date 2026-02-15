@@ -34,6 +34,7 @@ h1 h2 h3 h4 h5 h6 {
 }
 .main-banner {
 	margin-top: 50px;
+	width: 100%;
 }
 .right-menu {
 	list-style: none;
@@ -48,8 +49,11 @@ ul li {
 .image-size {
 	width: 100%;
 }
-.border-bottam {
-	
+.smoke-image {
+		margin: 20 20px;
+		max-width: 17%;
 }
-	
+.Geoge-title {
+	max-width: 82%;
+}
 			

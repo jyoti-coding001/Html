@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+.title-banner {
+	background: #F1F3F4;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	padding: 20px;
+	animation:  blink-colors-multiple-time 1s linear infinite ;
+
+}
+@keyframes blink-colors-one-time {
+	from {
+		background: #9AA0A6;
+		
+	}
+	to {
+		background: #FBBC04;
+	}
+
+}
+@keyframes blink-colors-multiple-time {
+	0% {
+		background:  #A50E0E;
+		
+	}
+	20% {
+		background: #FBBC04;
+	}
+	40% {
+		background: #FEEFC3
+	}
+	20% {
+		background: #FAD2CF
+	}
+	20% {
+		background: #4285F4
+	}
+
+}
