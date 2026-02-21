@@ -38,5 +38,125 @@
 	20% {
 		background: #4285F4
 	}
+}
+.football-image img {
+	animation: lefttoright-ball 2s linear infinite,
+				fullrotate-ball 2s linear infinite;
+	margin-top: 50px;
+	position: relative;
+	
+}
 
+@keyframes fullrotate-ball {
+	from {
+		transform: rotate(0deg) ;
+	}
+	to {
+		transform: rotate(360deg);
+	}
+	
+}
+
+@keyframes lefttoright-ball {
+	0% {
+		left: 0%;
+		transform: scale(1);
+	}
+	80% {
+		left: 80%;
+		transform: scale(2);
+	}
+	100% {
+		left: 0%;
+		transform: scale(1);
+	}
+	
+}
+.box {
+	width: 200px;
+	height: 200px;
+	border: solid;
+	color: black;
+	background: #F4F0E4;
+	animation: boxtocircle 1s linear infinite ;
+	margin-top: 50px;
+}
+@keyframes boxtocircle {
+	0% {
+		border-radius: 0;
+	}
+	30%{ border-radius: 50%
+	}
+	40%{ border-radius: 50%
+	}
+	30%{ border-radius: 50%
+	}
+	30%{ border-radius: 0%
+	}
+}
+.ball {
+	margin-top: 200px;
+	animation: ball-up-down 1s linear infinite;	
+	position: relative;
+}
+@keyframes ball-up-down {
+	0%{
+		bottom: 0px;
+	}
+	10% {
+		bottom: 200px;
+	}
+	20% {
+		bottom: 0px;
+	}
+	30% {
+		bottom: 300px;
+	}
+	90% {
+		bottom: 0px;
+	}
+	100% {
+		bottom: 100px;
+	}
+}
+.container {
+    max-width: 1000px;
+	
+}
+	
+.main-image {
+	display: inline-block;
+	position: relative;
+}
+.sun {
+	position: absolute;
+	bottom: 200px;
+	right: 100px;
+	animation: rising-sun 1s linear forwards,
+				rotate-sun 10s linear infinite;
+}
+
+.mountain {
+	position: relative;
+	z-index: 2;
+}
+
+@keyframes rising-sun {
+	from {
+		bottom: 0;
+		transform: rotate(0deg);
+	}
+	to {
+		bottom: 375px;
+		transform: rotate(360deg);	
+	}
+}
+@keyframes rotate-sun {
+	from {
+		
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);	
+	}
 }
