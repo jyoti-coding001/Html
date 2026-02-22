@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    color: red;
+}
+ul li {
+    font-size: 20px;
+}
+
+ul.type1 li:first-child {
+    color: red;
+}
+ul.type1 li:last-child {
+    color: blue;
+}
+ul.type1 li:nth-child(2) {
+    color: green;
+}
+
+ul.type2 li:nth-child(odd) {
+    color: blue;
+}
+ul.type2 li:nth-child(even) {
+    color: red;
+}
+
+ul.type3 li:nth-child(n+5) {
+    color: blue;
+}
+ul.type3 li:nth-child(-n+5) {
+    color: red;
+}
+
+ul.type4 li {
+    color: red;
+}
+
+ul:nth-child(2) {
+    border: 1px solid #000;
+}
+
+.h2, .h2 + h3 {
+    color: red;
+}
+
+ul.type4 > li {
+    color: red;
+}
+
+ul.type4 > li > ul > li {
+    color: blue;
+}
+
+
+.box {
+    width: 400px;
+    height: 400px;
+    background: #57e972;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    position: relative;
+}
+
+.box:before {
+    width: 200px;
+    height: 200px;
+    background: red;
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+    position: absolute;
+    top: 20px;
+    right: -80px;
+    font-size: 22px;
+    overflow: auto;
+}
+
+.box:after {
+    width: 200px;
+    height: 200px;
+    background: #ff00c8;
+    content: "Bye";
+    position: absolute;
+    bottom: -50px;
+    right: -80px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    display: grid;
+    place-content: center;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+}
+
+.box2:before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background: red;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+body {
+    background: #e2e2e2;
+}
+
+.col-3 {
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.col-box {
+    background: #f08d8d;
+    display: grid;
+    place-content: center;
+    height: 300px;
+    font-size: 40px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    row-gap: 30px;
+}
