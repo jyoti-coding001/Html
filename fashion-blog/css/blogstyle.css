@@ -73,7 +73,7 @@ ul li a:hover {
 .jane-title {
 	font-style: normal;
     font-size: 36px;
-	font-family: "Segoe UI", Arial, sans-serif;
+	font-family: Segoe UI, Arial, sans-serif;
 }
 .button-design {
 	padding: 15px 15px;
@@ -84,12 +84,12 @@ ul li a:hover {
 
 .border{
 	border: 0px solid #ccc;
-	padding: 8px 16x;
+	background: #F1F3F4;
 }
 .container {
 	max-width: 1500px;
 	padding: 12px 24px;
-	margin: 16x:
+	margin-top: 17px;
 }
 .center {
     text-align: center;
@@ -109,19 +109,15 @@ h5 {
     margin: 10px 0;
 }
 .col-style {
-    max-width: 897;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.left {
-	float:left;
-}
+
 .like-button {
 	padding: 8px 10px;
 }
 
-.right {
-	float: right;
-}
 
 .reply-button {
 	padding: 7px 17px;
@@ -134,9 +130,49 @@ h5 {
 	color: black;
 	padding: 3px 7px;
 }
-
-.bottom-border {
-	border-bottom: 2px solid black;
+.display-flex {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
 }
+.display-inline {
+    display: inline-flex;
+    margin-top: 20px;
+}
+.left {
+    width: 66.6666%;
+    background: white;
+    padding-right: 17px;
+}
+
+.right {
+    width: 33.3333%;
+    padding-left: 16px;
+}
+.container-black {
+	background: black;
+	color: white;
+	padding: 5px 19px;
+}
+
+.container-padding {
+    background: black;
+    color: white;
+    margin-top: 46px;
+    padding: 1px 13px;
+}
+h4 {
+	font-size: 16px;
+}
+.list-style{
+	background: white;
+	padding: 1;
+}
+ul li {
+	color: black;
+}
+
+
 	
-	
+
+
