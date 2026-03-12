@@ -1,0 +1,35 @@
+@media only screen and (max-width: 990px) {
+	.img-box {
+    width: 49%;
+}
+}
+
+@media only screen and (max-width: 412px) {
+	.img-box {
+    width: 100%;
+}
+
+.section.center {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.bar-menu {
+    width: 100%;
+}
+
+.footer-width {
+	
+}
+
+.top-menu {
+    width: 100%;
+}
+.chef-img {
+	width: 100%;
+}
+}
+
