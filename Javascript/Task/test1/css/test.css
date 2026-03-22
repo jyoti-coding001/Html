@@ -1,0 +1,41 @@
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container-cenetr{
+    
+}
+.box{
+    border: 2px solid #000;
+    width: 150px;
+    height: 100;
+    background: #000;
+}
+.section{
+    
+}
+
+.box-1{
+    border: 1px solid ;
+    width: 100px;
+    height: 100px;
+}
+.box-2{
+    border: 1px solid ;
+    width: 100px;
+    height: 100px;
+}
+
+.box-3{
+    border: 1px solid ;
+    width: 100px;
+    height: 100px;
+}
+
+.box-4{
+    border: 1px solid ;
+    width: 100px;
+    height: 100px;
+}
+
+

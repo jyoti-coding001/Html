@@ -30,3 +30,15 @@
         transform: rotate(360deg);
     }
 }
+.box.style-7{
+    box-shadow: #000 10px 15px 10px;
+}
+.box.style-8{
+    background: rebeccapurple;
+}
+.box.style-9{
+    background: rgb(187, 146, 228);
+}
+.box.style-10{
+    background: rgb(216, 51, 125);
+}
