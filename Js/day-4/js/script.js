@@ -43,6 +43,7 @@ console.log(typeof weekDay, "weekDay")
 
 if (weekDay === '1') {
    document.write('Your selected week day is Sunday')
+   document.write('Good')
 } else if (weekDay === '2') {
    document.write('Your selected week day is Monday')
 } else if (weekDay === '3') {
