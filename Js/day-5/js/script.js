@@ -82,3 +82,8 @@ switch(weekDay) {
    default :
    document.write('Your can`t even think week day you Dumb')
 }
+
+for (var a = 10; a <=15; a++) {
+	document.writeln(a '<br/>');
+}
+	
