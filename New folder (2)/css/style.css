@@ -1,0 +1,32 @@
+body {
+    font-family: DM Sans;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 54px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.header-center {
+    text-align: center;
+}
+
+
+.logo-style {
+    margin-top: -40px;
+}
+
+header {
+    margin: 0 51px;
+}
+
+.button-element {
+    float: right;
+    margin-top: -40px;
+}
+
+.button-hide {
+    display: none;
+}

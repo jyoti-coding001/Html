@@ -41,6 +41,22 @@ for (var a = 10; a <15; a++) {
 for ( let k = 1; k <=10; k++) {
 	document.writeln("3" + "x" + k + "=" + 3 * k , '<br/>');
 }
+
+console.log(kri)
+var kri = 5;
+while ( kri < 10 ) {
+	document.writeln(kri*2, '<br/>')
+
+		break
 	
+	kri++
+}
+let j = 10;
+while (j < 20) {
+	document.writeln(j , '<br/>')
+	
+	j++
+}
+	 
 
 
