@@ -1,1 +1,5 @@
-var buttonElement = document.getElementById('menubar')
+
+function buttonstyle() {
+    var menuElement = document.getElementById('mainmenu');
+    menuElement.classList.toggle("active");
+}

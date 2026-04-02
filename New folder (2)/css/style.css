@@ -1,11 +1,15 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: DM Sans;
+    margin: 0;
 }
 ul li {
     list-style: none;
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 54px;
+    /* display: inline-block; */
+    /* margin-top: 20px; */
+    /* margin-left: 54px; */
     font-size: 18px;
     font-weight: 500;
 }
@@ -15,18 +19,33 @@ ul li {
 
 
 .logo-style {
-    margin-top: -40px;
+    /* margin-top: -40px; */
 }
 
 header {
-    margin: 0 51px;
+    /* margin: 0 51px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 83px;
 }
 
 .button-element {
-    float: right;
-    margin-top: -40px;
+    /* float: right; */
+    /* margin-top: -40px; */
 }
 
 .button-hide {
+    /* display: none; */
+}
+
+#menubar {
     display: none;
+}
+
+.header-center ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 52px;
 }
