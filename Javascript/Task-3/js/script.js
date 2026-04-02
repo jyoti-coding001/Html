@@ -57,6 +57,22 @@ while (j < 20) {
 	
 	j++
 }
+
+
+//console.log(vehicle)
+//var vehicle = ["BMW" , "Auto" , "Cycle" , "Maruti"];
+
+//for ( a = 0; a < vehicle.length; a++) {
+//	document.writeln ( vehicle[a] + '<br/>');
+//}
+
+console.log(vehicle)
+var vehicle = ["BMW" , "Auto" , "Cycle" , "Maruti"];
+
+for ( a = 0; a < 4; a++) {
+	document.writeln ( vehicle[a] + '<br/>');
+}
+
 	 
 
 
