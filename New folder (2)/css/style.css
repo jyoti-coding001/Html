@@ -5,7 +5,7 @@ body {
     font-family: DM Sans;
     margin: 0;
 }
-ul li {
+header ul li {
     list-style: none;
     /* display: inline-block; */
     /* margin-top: 20px; */
@@ -48,4 +48,81 @@ header {
     margin: 0;
     display: flex;
     gap: 52px;
+}
+
+.footer-content {
+    width: 341px;
+    
+}
+
+.content-style {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+footer h3 {
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    column-gap: normal;
+    padding: 0 83px;
+}
+ 
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+
+.width {
+    width: 24%;
+}
+
+.left{
+    padding-left: 80px;
+}
+
+.brand-style {
+    width: 169px;
+}
+.box {
+    border: 1px solid;
+    color: #fff;
+    background: #9B0103;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 10px;
+    margin: 0;
+}
+
+.border-bottam {
+    display: flex;
+}
+
+.left-style {
+    width: px;
+    padding: 0 83px;
+}
+
+.float-right {
+    float: right;
+
+}
+
+.footer2 {
+    display: flex;
+    column-gap: normal;
+    padding: 0 83;
+    border-top: 1px solid #000;
+}
+
+.footer2-left {
+    padding-left: 799px;
+
 }

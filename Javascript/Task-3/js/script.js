@@ -73,6 +73,38 @@ for ( a = 0; a < 4; a++) {
 	document.writeln ( vehicle[a] + '<br/>');
 }
 
+const person = {
+	name: "Rahul",
+	age: "25",
+	address: {
+		city: "Delhi",
+		pincode: 110001,	
+	} ,
+	 hobbies: [
+		"Cricket",
+		"Music" ,
+		"Travel"
+	]
+}
+	person.age = 30;
+	person.country = "india";
+	document.writeln(` Name: ${person.name} <br/> city: ${person.address.city} <br/> Hobby: ${person.hobbies2}`)
+
+console.log(person)
+
+const product = {
+	title: "Mobile",
+	price: "15000",
+	details: {
+		brand: "Sumsung",
+		warranty: "1 year",
+	}
+}
+product.price = 20000;
+product.details.brand = "poco";
+
+console.log(product)
+
 	 
 
 

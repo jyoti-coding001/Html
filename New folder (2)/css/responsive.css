@@ -31,4 +31,30 @@
 .header-center ul li {
     color: #fff;
 }
+footer {
+    padding: 18px 30px;
+}
+.footer2 {
+    padding: 0px 30px;
+}
+.footer2-left {
+    padding-left: 149px;
+}
+
+}
+ 
+@media only screen and (max-width: 480px) {
+
+img.logo-img {
+    width: 75%;
+}
+
+img.button-size {
+    width: 75%;
+}
+
+.footer-content {
+    width: 274px;
+}
+
 }
