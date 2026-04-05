@@ -86,9 +86,9 @@ const person = {
 		"Travel"
 	]
 }
-	person.age = 30;
-	person.country = "india";
-	document.writeln(` Name: ${person.name} <br/> city: ${person.address.city} <br/> Hobby: ${person.hobbies2}`)
+	person.age = "30";
+	person.address.country = "india";
+	document.writeln(` Name: ${person.name} <br/> city: ${person.address.city} <br/> Hobby: ${person.hobbies[2]}`)
 
 console.log(person)
 
