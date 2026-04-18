@@ -107,4 +107,11 @@ console.log(product)
 
 	 
 
+const d = new Date ();
+
+console.log(d.getFullYear() );
+console.log(d.getMonth() );
+
+const y = new Date ("2025-03-25");
+console.log(y.getFullYear() );
 

@@ -40,7 +40,14 @@ footer {
 .footer2-left {
     padding-left: 149px;
 }
-
+footer {
+    display: flex;
+    padding: 0 83px;
+    flex-wrap: wrap;
+}
+.width{
+    width: 50%;
+}
 }
  
 @media only screen and (max-width: 480px) {
@@ -54,7 +61,9 @@ img.button-size {
 }
 
 .footer-content {
-    width: 274px;
+    width: 223px;
 }
-
+footer {
+    padding: 18 30px;
+}
 }

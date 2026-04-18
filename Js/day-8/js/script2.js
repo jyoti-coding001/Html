@@ -59,7 +59,7 @@ const data = [
 ];
 
 // HW
-const data2 = {
+const dataa = {
    user : [
       {
          "name": "Adeel Solangi",
@@ -113,13 +113,21 @@ const data2 = {
    ]
 }
 
-console.log(data);
-console.log(data[0]);
-console.log(data.length);
-console.log(`My name is ${data[0].name} i speak ${data[0].language} and this is something about me ${data[0].bio}`);
+//console.log(data);
+//console.log(data[0]);
+//console.log(data.length);
+// console.log(`My name is ${data[0].name} i speak ${data[0].language} and this is something about me ${data[0].bio}`);
 // document.writeln(`My name is ${data[0].name} i speak ${data[0].language} and this is something about me ${data[0].bio}`, '<br/>');
 // document.writeln(`My name is ${data[1].name} i speak ${data[1].language} and this is something about me ${data[1].bio}`, '<br/>');
 
-for(let i = 0; i < data.length; i++) {
-document.writeln(`ID: ${data[i].id} My name is ${data[i].name} i speak ${data[i].language} and this is something about me ${data[i].bio}`, '<br/>');
-}
+// for(let i = 0; i < data.length; i++) {
+// document.writeln(`ID: ${data[i].id} My name is ${data[i].name} i speak ${data[i].language} and this is something about me ${data[i].bio}`, '<br/>');
+// }
+
+for(var m = 0; m < dataa.user.length; m++) {
+    document.writeln(`My name is ${dataa.user[m].name} i speak ${dataa.user[m]}.language</br>`)
+ }
+ console.log(dataa);
+ console.log(dataa.user);
+ console.log(dataa.user[4]);
+ console.log(dataa.user[4].name)
