@@ -1,0 +1,19 @@
+.box {
+    border: 2px solid #000;
+    width: 300;
+    height: 450;
+    border-radius: 15px;
+}
+.form-heading {
+    border: 1px solid #000;
+    width: 90%;
+    height: 34px;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    margin: 0px;
+    text-align: center;
+}
+.title {  
+    margin: 0;
+}
